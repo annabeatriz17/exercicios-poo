@@ -6,4 +6,6 @@ class Pessoa {
     }
 }
 
-const User = new Pessoa
+const User = new Pessoa("Nino", 2, 1.20);
+console.log(User);
+
